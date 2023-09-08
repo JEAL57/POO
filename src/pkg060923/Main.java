@@ -9,9 +9,9 @@ public class Main {
         int limitObjet = 3;
         Persona[] arrayPerson = new Persona[limitObjet];
         
-        //Instancia
+        //Instancia | Generar un ciclo para guardar estos datos en los limites q el programa defina ingresando todo por teclado
         arrayPerson[0] = new Persona("Juanes", "5716", "Colombia");
-        arrayPerson[1] = new Persona("Axel", "1747", "Venezuela");
+        
         
         for(Persona persona : arrayPerson){
             System.out.println("Name:"+ persona.getName());
